@@ -77,5 +77,29 @@ namespace ApiExchange.Service
 
         }
 
+
+        public string HistoricalRates(string historicalDate, string currencyBase, string currencySymbols)
+        {
+            try
+            {
+
+                var request = new RestRequest($"/{historicalDate}");
+                request.AddParameter("base", currencyBase);
+                request.AddParameter("symbols", currencySymbols);
+
+                var response = _client.Execute(request);
+
+                if (response.IsSuccessStatusCode)
+                    throw new Exception(response.ErrorMessage);
+
+                if (string.IsNullOrEmpty(response.Content)) throw new Exception("No Contente foe this currencies");
+                else return response.Content;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
     }
 }

@@ -8,4 +8,11 @@
         public DateTime? ConvertDate { get; set; } = DateTime.MinValue;
         
     }
+
+    public class HistoricalRateModel
+    {
+        public DateTime HistoricalDate { get; set; }
+        public string CurrencyBase { get; set; }
+        public string CurrencyTo { get; set; }
+    }
 }
