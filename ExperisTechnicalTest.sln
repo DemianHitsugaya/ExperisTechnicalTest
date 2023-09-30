@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prueba1", "Prueba1", "{1C276277-86D7-4063-AB74-47E77E53C2A3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prueba3", "Prueba3", "{D24A0781-2C2F-4153-865F-07057AE54601}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiExchange", "ApiExchange\ApiExchange.csproj", "{A8076490-68E7-4654-94FD-7443F938CEC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prueba1", "Prueba1", "{66985CB9-6960-4DF2-B7F0-2B57003ECA62}"
 	ProjectSection(SolutionItems) = preProject
 		..\AllInfoProject_by_depto.do.sql = ..\AllInfoProject_by_depto.do.sql
 		..\Cant_Proyectos_x_Depto.do.sql = ..\Cant_Proyectos_x_Depto.do.sql
@@ -18,10 +22,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prueba1", "Prueba1", "{1C27
 		..\NombreCompleto_por_Proyecto.do.sql = ..\NombreCompleto_por_Proyecto.do.sql
 		..\NombreCompleto_por_Proyecto.png = ..\NombreCompleto_por_Proyecto.png
 	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prueba3", "Prueba3", "{D24A0781-2C2F-4153-865F-07057AE54601}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiExchange", "ApiExchange\ApiExchange.csproj", "{A8076490-68E7-4654-94FD-7443F938CEC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
