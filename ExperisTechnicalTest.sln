@@ -7,22 +7,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prueba3", "Prueba3", "{D24A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiExchange", "ApiExchange\ApiExchange.csproj", "{A8076490-68E7-4654-94FD-7443F938CEC0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prueba1", "Prueba1", "{66985CB9-6960-4DF2-B7F0-2B57003ECA62}"
-	ProjectSection(SolutionItems) = preProject
-		..\AllInfoProject_by_depto.do.sql = ..\AllInfoProject_by_depto.do.sql
-		..\Cant_Proyectos_x_Depto.do.sql = ..\Cant_Proyectos_x_Depto.do.sql
-		..\Cant_Proyectos_x_Depto.png = ..\Cant_Proyectos_x_Depto.png
-		..\Deptos_MoreThan1Project.do.sql = ..\Deptos_MoreThan1Project.do.sql
-		..\Deptos_MoreThan1Project.png = ..\Deptos_MoreThan1Project.png
-		..\exports.sql = ..\exports.sql
-		..\Insert_Departments.do.sql = ..\Insert_Departments.do.sql
-		..\Insert_Employees_Projects.do.sql = ..\Insert_Employees_Projects.do.sql
-		..\Insert_Projects.do.sql = ..\Insert_Projects.do.sql
-		..\Modelo BD.png = ..\Modelo BD.png
-		..\NombreCompleto_por_Proyecto.do.sql = ..\NombreCompleto_por_Proyecto.do.sql
-		..\NombreCompleto_por_Proyecto.png = ..\NombreCompleto_por_Proyecto.png
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
