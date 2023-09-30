@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prueba1", "Prueba1", "{1C276277-86D7-4063-AB74-47E77E53C2A3}"
+	ProjectSection(SolutionItems) = preProject
+		..\AllInfoProject_by_depto.do.sql = ..\AllInfoProject_by_depto.do.sql
+		..\Cant_Proyectos_x_Depto.do.sql = ..\Cant_Proyectos_x_Depto.do.sql
+		..\Cant_Proyectos_x_Depto.png = ..\Cant_Proyectos_x_Depto.png
+		..\Deptos_MoreThan1Project.do.sql = ..\Deptos_MoreThan1Project.do.sql
+		..\Deptos_MoreThan1Project.png = ..\Deptos_MoreThan1Project.png
+		..\exports.sql = ..\exports.sql
+		..\Insert_Departments.do.sql = ..\Insert_Departments.do.sql
+		..\Insert_Employees_Projects.do.sql = ..\Insert_Employees_Projects.do.sql
+		..\Insert_Projects.do.sql = ..\Insert_Projects.do.sql
+		..\Modelo BD.png = ..\Modelo BD.png
+		..\NombreCompleto_por_Proyecto.do.sql = ..\NombreCompleto_por_Proyecto.do.sql
+		..\NombreCompleto_por_Proyecto.png = ..\NombreCompleto_por_Proyecto.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prueba3", "Prueba3", "{D24A0781-2C2F-4153-865F-07057AE54601}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiExchange", "ApiExchange\ApiExchange.csproj", "{A8076490-68E7-4654-94FD-7443F938CEC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8076490-68E7-4654-94FD-7443F938CEC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8076490-68E7-4654-94FD-7443F938CEC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8076490-68E7-4654-94FD-7443F938CEC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8076490-68E7-4654-94FD-7443F938CEC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A8076490-68E7-4654-94FD-7443F938CEC0} = {D24A0781-2C2F-4153-865F-07057AE54601}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C58507D9-F1C9-4088-8D90-52AB51CE712C}
+	EndGlobalSection
+EndGlobal
